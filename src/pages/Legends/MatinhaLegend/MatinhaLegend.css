@@ -1,0 +1,66 @@
+.content-legend {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #591a2b;
+}
+
+.text-legend h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.text-legend {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fafafa;
+}
+
+.text {
+  margin: 0;
+}
+
+.figurinha-meio {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-legend {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.figurinha-matinha-legend {
+  width: 100px;
+  height: 150px;
+  margin: 0.5em;
+  padding: 2.55rem;
+  border: 3px solid #a8823e;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .figurinha-matinha-legend {
+    width: 10px;
+    height: 70px;
+    margin: 0.2em;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .grid-viana {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .figurinha-matinha-legend {
+    width: 80px;
+    height: 130px;
+    margin: 0.5em;
+    border-radius: 10px;
+  }
+}

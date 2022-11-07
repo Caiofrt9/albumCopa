@@ -1,0 +1,67 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content h1,
+.content h2 {
+  margin: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fafafa;
+}
+
+.text {
+  margin: 0;
+}
+
+.figurinha-meio-viana {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-viana {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.figurinha-viana {
+  width: 100px;
+  height: 150px;
+  margin: 0.5em;
+  border-radius: 10px;
+  background-color: #4fafa4;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .figurinha-viana {
+    width: 70px;
+    height: 105px;
+    margin: 0.2em;
+    border-radius: 10px;
+    background-color: #4fafa4;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .grid-viana {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .figurinha-viana {
+    width: 120px;
+    height: 160px;
+    margin: 0.5em;
+    border-radius: 10px;
+    background-color: #4fafa4;
+  }
+}
