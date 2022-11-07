@@ -25,8 +25,8 @@
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .main {
-    width: 500;
-    height: 300px;
+    max-width: 70%;
+    height: 350px;
     margin: 0.2em;
   }
 }
